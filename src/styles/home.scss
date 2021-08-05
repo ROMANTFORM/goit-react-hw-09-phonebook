@@ -1,0 +1,21 @@
+.Home-wrap {
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/home.jpg);
+}
+.Home-wrap__title {
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 600;
+  text-align: center;
+  color: $sweet-grey;
+}
+.Home-wrap__subtitle {
+  color: $sweet-grey;
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+}

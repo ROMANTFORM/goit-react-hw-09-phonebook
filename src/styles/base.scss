@@ -1,0 +1,46 @@
+@import "./colors";
+@import "./variables";
+@import "./navigation.scss";
+@import "./home.scss";
+@import "./contacts.scss";
+@import "./form.scss";
+
+body {
+  margin: 0;
+  background-color: $white;
+  color: $black;
+  line-height: 1.5;
+  font-family: $primary-font-stack;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: $grey;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.active-link {
+  color: $red;
+}
+
+.link:hover {
+  color: $sweet-grey;
+  transition: 300ms;
+}

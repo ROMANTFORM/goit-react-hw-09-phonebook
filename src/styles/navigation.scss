@@ -1,0 +1,34 @@
+.Nav-wrap {
+  height: 80px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav-menu {
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.User-menu {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Auth-wrap,
+.Nav-Container__right {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+.logout-btn {
+  width: 70px;
+  height: 35px;
+  background-color: $blue;
+  color: $white;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
